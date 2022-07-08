@@ -3,7 +3,7 @@ import numpy as np
 lista = [1,2,3,4,5,6,7,8,9]
 print(lista)
 
-#Convirtiendo la lista en un array
+#Convirtiendo la lista en un array, se comportan de manera similar
 array = np.array(lista)
 print(array, type(array))
 
