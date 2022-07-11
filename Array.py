@@ -3,7 +3,7 @@ import numpy as np
 lista = [1,2,3,4,5,6,7,8,9]
 print(lista)
 
-#Convirtiendo la lista en un array, se comportan de manera similar
+#Convirtiendo la lista en un array, se comportan de manera similar sólo es más rápido 
 array = np.array(lista)
 print(array, type(array))
 
@@ -20,3 +20,6 @@ print(f'La suma del indice 1 y 4 es: {sum_array}')
 #La matriz tiene índices, los de siempre
 matriz_02 = matriz[0,2]
 print(f'El elemento 0,2 de la matriz es: {matriz_02}')
+#En matrices se puede hacer slicing
+matriz_slice = matriz[1,0:2] #Fila 1, columnas 0 y 2
+print(matriz_slice)
